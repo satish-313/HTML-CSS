@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>the form page</title>
+    </head>
+    <body>
+        <h3>fill the form</h3>
+        <div>
+            <input name="name" type="text" placeholder="full name">
+            <input name="password" type="password" placeholder="password">
+        </div>
+        <div>
+            favorite color
+            <input name="color" type="radio" value="red">red
+            <input name="color" type="radio" value="green">green
+            <input name="color" type="radio" value="blue">blue
+            <input name="color" type="radio" value="black">black
+        </div>
+        <div>
+            continet
+            <input name="continent" list="continent" placeholder="continent">
+            <datalist id="continent">
+                <option value="asia">asia</option>
+                <option value="europe">europe</option>
+                <option value="australia">australia</option>
+                <option value="north america">north america</option>
+                <option value="south america">south america</option>
+                <option value="antartica">antartica</option>
+            </datalist>
+        </div>
+        <div>
+            <button>sumbit!</button>
+        </div>
+    </body>
+</html>
