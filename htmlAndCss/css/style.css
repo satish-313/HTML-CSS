@@ -1,0 +1,57 @@
+.title {
+    color: red;
+    background-color: #1c539c ;
+}
+
+#contact-us {
+    color: green;
+    background-color: cornflowerblue;
+}
+
+button:hover{
+    background-color: red;
+}
+
+/* li:first-child{
+    color: blue;
+}
+ */
+
+/* li:nth-child(2){
+    color: blue;
+} */
+
+#google-link:link {
+    color: blue;
+}
+
+#google-link:visited {
+    color: red;
+}
+
+#amazon-link:link {
+    color: blue;
+}
+
+#amazon-link:visited {
+    color: red;
+}
+
+textarea ~ button{
+    background-color: gray;
+}
+
+/* ul > li {
+    color: purple;
+} */
+
+ul li {
+    color: green;
+}
+
+img[src*="./"]{
+    border: 10px solid black;
+}
+
+
+

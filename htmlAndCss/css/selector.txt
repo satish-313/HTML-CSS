@@ -1,0 +1,27 @@
+Selector are target the html
+
+element Selector for example (p is paragraph element)
+p {
+    property;
+}
+
+class Selector for example
+.aclass {
+    property;
+}
+
+id Selector for example
+#someid {
+    property;
+}
+
+specificity 
+it is a concept some selector has more power than other
+element < class < id < inline style
+
+psedo selector :
+are the selector use for inter activity of page like hover and animation
+
+advance selector
+
+

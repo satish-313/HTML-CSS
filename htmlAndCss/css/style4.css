@@ -1,0 +1,31 @@
+/* layout */
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+#about-us-image{
+    height: 400px;
+    border: 5px solid rebeccapurple;
+    padding: 10px 4px 5px 0; /* top right bottom  left */
+    margin: 20px 15px; /* it is similar to padding to short into two section top/bottom and left/right */
+/*     float: right; */
+}
+#title{
+    border: 2.5px solid rebeccapurple;
+
+}
+#image-repeat{
+    height: 400px;
+    width: 70vw;
+    background: radial-gradient(red 20%,blue 40%,green 50%);
+/*     float: right;
+    background: linear-gradient(195deg,rgba(125,255,126),rgba(94,255,126,0.25)) ;
+    background: linear-gradient(to bottom right,rgba(125,255,126),rgba(94,255,126,0.25)) ;
+ *//*  background: url("http://127.0.0.1:5500/html/img_car.jpg");
+    background-size: cover;*/
+/*  background-repeat: no-repeat; */
+}
+
+.site-table{
+}

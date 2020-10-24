@@ -1,0 +1,23 @@
+/* unit in css absolute(px,cm) and relative(rem,em)*/
+
+body{
+    font-size: 1.25rem;
+    font-family: 'Roboto', sans-serif;
+/*     font-family: sans-serif;
+ */}
+
+#title{
+    background: aqua;
+/*     font-weight: 400;
+ */    font-family: 'Commissioner', sans-serif;
+    text-align: center; /*user for same line*/
+}
+
+.link{
+/*     font-family: "Arial", sans-serif;
+ */    text-decoration:underline ; /*uderline*/
+}
+
+.italic{
+    font-style: italic;
+}
