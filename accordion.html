@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>accordion</title>
+  <style>
+    .content-accordion {
+      display: none;
+      background-color: red;
+      transition: max-height 0.2s ease-out;
+    }
+
+    .accordion {
+      cursor: pointer;
+      width: 30vw;
+    }
+  </style>
+</head>
+
+<body>
+  <button class="accordion">click</button>
+  <div class="content-accordion">
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet doloribus dolore at delectus optio libero ipsam
+    reiciendis, officia voluptate dicta voluptates quam magni consectetur. Ex distinctio totam ullam ipsam voluptatum.
+  </div>
+  <script>
+    const y = document.querySelector('.content-accordion');
+    const x = document.querySelector('button');
+    x.addEventListener('click', function () {
+      if (y.style.display === 'block') {
+        console.log("none")
+        y.style.display = 'none';
+      }
+      else {
+        console.log('block')
+        y.style.display = 'block';
+      }
+    })
+  </script>
+</body>
+
+</html>
