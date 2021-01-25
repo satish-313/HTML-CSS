@@ -1,0 +1,59 @@
+.btn{
+  margin: 2rem auto;
+  padding: 1rem;
+  color: lightblue;
+  font-weight: bold;
+  border-radius: 0;
+  transition: color 1s ease-in-out ;
+  /* property duration method delay */
+  transition: border-radius 1s ease-in-out;
+}
+
+.btn:hover{
+  color: rgb(3, 3, 83);
+  border-radius: 50%;
+}
+
+.transform-btn{
+  padding: 1rem;
+  background-color: chocolate;
+  font-weight: bold;
+  color: white;
+  transition: all 1s ease-in-out;
+  /* transform: rotate(50deg); */
+}
+
+.transform-btn:hover{
+  background-color: rgb(228, 51, 80);
+  /* transform: skewY(45deg); */
+  transform: translate(50px,30px);
+  /* transform can be used in main class it work similar to margin or position */
+}
+
+.key-frames{
+  padding: 1rem;
+  background-color: wheat;
+  /* animation-name: test-element;
+  animation-duration: 5s;
+  animation-timing-function: ease-in-out;
+  animation-delay: 2s;
+  animation-iteration-count: 3;/* infinite for forever
+  animation-direction: alternate; */
+  animation: test-element 5s ease-in-out 0s infinite alternate;
+  /* animation-name duration timing-function delay iteration direction */
+}
+
+@keyframes test-element {
+  0% {
+    background-color: red; 
+    transform: translate(0px,0px);
+  }
+  50% {
+    background-color: green; 
+    transform: translate(10px,10px);
+  }
+  100% {
+    background-color: blue; 
+    transform: translate(20px,20px);
+  }
+}
